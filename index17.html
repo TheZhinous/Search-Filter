@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Filter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header section -->
+      <header class="app-header">
+        <h1 class="app-title">Search Filter Products</h1>
+        <!--search form -->
+        <form class="app-search__form">
+          <input type="text" class="search__input" placeholder="search here" />
+        </form>
+        <!-- filters buttons -->
+        <div class="buttons-container">
+          <button data-filter="" class="btn">All</button>
+          <button data-filter="watch" class="btn">Watch</button>
+          <button data-filter="shirt" class="btn">Shirt</button>
+          <button data-filter="gown" class="btn">Gown</button>
+          <button data-filter="jewelry" class="btn">Jewelry</button>
+        </div>
+      </header>
+      <main class="products-container">
+        <!-- <div class="product">
+          <img src="./images/1.png" class="product__image" />
+          <div class="product__desc">
+            <span class="product__title">watch product</span>
+            <span class="product__price">10.99$</span>
+          </div>
+        </div> -->
+      </main>
+    </div>
+
+    <script type="module" src="index17.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"
+      integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
